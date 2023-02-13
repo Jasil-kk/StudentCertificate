@@ -1,0 +1,72 @@
+.star-body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.star-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.star-content .star {
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.star-content .star .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+}
+.star-content .star .text h2 {
+    color: rgba(30, 80, 81, 0.968);
+    font-size: 35px;
+}
+.star-content .star .text h5 {
+    font-size: 23px;
+    color: rgba(30, 80, 81, 0.847);
+}
+.star-content .star h1 {
+    color: rgba(30, 80, 81, 0.968);
+    font-size: 35px;
+}
+.star-content .star .lists {
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.star-content .star .lists h5 {
+    font-size: 27px;
+    color: rgba(99, 135, 135, 0.968);
+    margin-top: 10px;
+}
+.star-content .star .lists .items {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.star-content .star .lists .items .rating {
+    margin-top: -5px;
+}
+
+.star .cert-btn {
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #3DCD69;
+    color: #fff;
+}

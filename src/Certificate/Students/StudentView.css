@@ -1,0 +1,174 @@
+.view-main {
+    background-color: #b8bdd243;
+    width: 100%;
+    height: 100vh;
+}
+.view-main h4 {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.contentcard {
+    width: 850px;
+    height: 315px;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 7px;
+}
+.contentcard .first p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.673);
+}
+.contentcard .first .one {
+    display: flex;
+    flex-direction: column;
+}
+.contentcard .one-content{
+    display: flex;
+    line-height: 1.2;
+}
+.contentcard .one-content span {
+    font-size: 18px;
+    color: rgba(21, 21, 224, 0.782);
+    margin-top: -6px;
+
+}
+.contentcard .one-content p{
+    margin-left: 10px;
+}
+.contentcard h6 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.contentcard .second {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.contentcard .second img{
+    width: 140px;
+    height: 140px;
+    border-radius: 7px;
+}
+.contentcard span {
+    color: rgba(0, 0, 0, 0.67);
+}
+.contentcard .third {
+    display: flex;
+    gap: 17px;
+    margin-top: 230px;
+
+}
+.contentcard .third button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.contentcard .btn1 {
+    background-color: rgb(28, 106, 28);
+    color: white;
+}
+.contentcard .btn2 {
+    background-color: rgb(168, 28, 28);
+    color: white;
+}
+
+
+/* second */
+
+
+.tablecard {
+    width: 850px;
+    padding: 10px;
+    height: auto;
+    background-color: white;
+    margin-left: 100px;
+    border-radius: 7px;
+}
+.tablecard tr {
+    height: 60px;
+    border-bottom: 1px solid rgba(157, 146, 146, 0.429);
+}
+.tablecard th {
+    border-top: 1px solid rgba(157, 146, 146, 0.429);
+}
+.tablecard td {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.643);
+}
+.tablecard td input {
+    margin-right: 25px;
+}
+.tablecard #pend {
+    position: relative;
+    border: 1.5px solid rgba(0, 0, 0, 0.249);
+    border-radius: 5px;
+    background-color: white;
+    width: 120px;
+    height: 35px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.686);
+    cursor: pointer;
+    align-items: center;
+}
+.tablecard #pend span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+}
+.tablecard #view {
+    border: none;
+    color: rgba(0, 0, 255, 0.663);
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: rgb(228, 203, 251);
+}
+.tablecard #del {
+    border: none;
+    background-color: rgb(175, 17, 17);
+    color: white;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.create {
+    border: none;
+    background-color: rgb(7, 114, 43);
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-left: 610px;
+    margin-bottom: 10px;
+}
+
+
+.view-main .cert-btn {
+    margin-left: 800px;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 150px;
+    height: 45px;
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}

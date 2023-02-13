@@ -1,0 +1,78 @@
+.updatestudent-main {
+    width: 100%;
+    height: 100vh;
+    background-color: #b8bdd243;
+    position: relative;
+}
+.updatestudent-main h3 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.update-content {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: white;
+    width: 70%;
+    height: auto;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.update-content .forms {
+    
+    font-size: 18px;
+    height: auto;
+    border-radius: 7px;
+}
+.update-content .forms form {
+    display: flex;
+    gap: 70px;
+    width: 100%;
+    padding: 50px;
+}
+
+.update-content .forms input {
+    width: 450px;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(230, 229, 227, 0.837);
+    font-size: 18px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.506);
+}
+.update-content .forms label {
+    margin-left: 10px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.update-content .buttons {
+    display: flex;
+    margin-top: 450px;
+    margin-left: -300px;
+}
+.update-content .buttons button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.update-content .buttons .btn1 {
+    background-color: rgba(212, 209, 195, 0.837);
+    margin-right: 20px;
+}
+.update-content .buttons .btn1:hover {
+    background-color: rgba(219, 214, 193, 0.837);
+}
+.update-content .buttons .btn2 {
+    background-color: rgb(14, 115, 14);
+    color: white;
+}
+.update-content .buttons .btn2:hover {
+    background-color: rgb(24, 123, 24);
+}

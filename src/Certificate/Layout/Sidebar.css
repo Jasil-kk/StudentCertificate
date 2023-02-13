@@ -1,0 +1,54 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 50px;
+}
+.menu-icon {
+    display: none;
+    font-size: 20px;
+}
+
+.sidebar button {
+    border: none;
+    width: 250px;
+    position: relative;
+    text-align: left;
+    margin-bottom: 10px;
+    background: none;
+    color: rgba(0, 0, 0, 0.733);
+}
+.sidebar button span {
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.733);
+}
+.sidebar button .downIcon {
+    position: absolute;
+    right: 10px;
+}
+.first-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.first-list h6 {
+    color: black;
+    margin-top: 15px;
+}
+.first-list span{
+    font-size: 24px;
+    margin-right: 7px;
+}
+.sidebar ul {
+    width: 300px;
+}
+.sidebar ul li {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.733);
+    margin-bottom: 10px;
+}
+ 
+

@@ -1,0 +1,63 @@
+.studentCourse-body{
+    background-color: #b8bdd243;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 150px;
+}
+.studentCourse-content {
+    width: 700px;
+    height: auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.studentCourse-content h3 {
+    font-size: 30px;
+    color: black;
+}
+.studentCourse-content form {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.studentCourse-content form label {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.studentCourse-content form input {
+    width: 400px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 7px;
+    background-color:#b8bdd27c;
+    border: none;
+    padding-left: 18px;
+    color: rgba(0, 0, 0, 0.955);
+    margin-bottom: 20px;
+}
+.studentCourse-content form select {
+    width: 400px;
+    height: 45px;
+    font-size: 23px;
+    border-radius: 7px;
+    background-color: #b8bdd27c;
+    border: none;
+    padding-left: 18px;
+    color: rgba(0, 0, 0, 0.891);
+    margin-bottom: 20px;
+}
+.studentCourse-content form .buttons {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    gap: 15px;
+}
+.studentCourse-content form .buttons button {
+    width: 90px;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}

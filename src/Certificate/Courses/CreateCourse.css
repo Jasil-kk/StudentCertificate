@@ -1,0 +1,72 @@
+.createcourse-main {
+    width: 100%;
+    height: 100vh;
+    background-color: #b8bdd243;
+}
+.createcourse-main h6 {
+    font-size: 20px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.create-content {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    padding: 30px;
+    border-radius: 7px;
+}
+.create-content form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.create-content input {
+    height: 50px;
+    width: 450px;
+    background-color: rgb(214, 229, 232);
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+.create-content label {
+    font-weight: 600;
+    margin: 30px 0 0;
+}
+.create-content .buttons {
+    margin-top: 100px;
+    margin-left: 550px;
+    gap: 20px;
+    display: flex;
+}
+.create-content button {
+    width: 130px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.create-content .btn1 {
+ background-color: rgb(209, 222, 225);
+}
+.create-content .btn1:hover {
+    background-color: rgb(199, 222, 227);
+   }
+.create-content .btn2 {
+    background-color: rgb(43, 106, 43);
+    color: white;
+}
+.create-content .btn2:hover {
+    background-color: rgb(68, 124, 68);
+}
+
+.create-content .selector {
+    width: 450px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: rgb(214, 229, 232);
+    font-size: 18px;
+}

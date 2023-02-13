@@ -1,0 +1,73 @@
+.view-main {
+    background-color: #b8bdd243;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.view-main h3 {
+    position: absolute;
+    top: 120px;
+    left: 140px;
+    font-size: 35px;
+    color: green;
+    z-index: 1;
+}
+.view-content {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    padding: 50px;
+}
+.content-text {
+    margin-top: 30px;
+    display: grid;
+}
+.content-text .texts {
+    display: flex;
+    align-items: center;
+}
+.content-text .texts h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+.content-text .texts p {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.724);
+}
+.view-content .buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 280px;
+
+}
+
+.view-content button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+  
+}
+.view-content .btn1 {
+    color: white;
+    background-color: rgb(182, 17, 17);
+}
+.view-content .btn1:hover {
+    background-color: red;
+}
+.view-content .btn2 {
+    color: white;
+    background-color: rgb(9, 103, 9);
+}
+.view-content .btn2:hover {
+    background-color: green;
+}
