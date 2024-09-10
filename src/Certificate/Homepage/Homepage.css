@@ -29,7 +29,7 @@
     height: auto;
     display: flex;
     justify-content: space-between;
-    padding: 250px;
+    padding:100px 250px;
 }
 
 .picture {
@@ -226,7 +226,7 @@
         height: 150px;  
     }
     .contents {
-        padding-top: 100px;
+        padding-top: 50px;
         padding-bottom: 100px;
     }
     .text {
